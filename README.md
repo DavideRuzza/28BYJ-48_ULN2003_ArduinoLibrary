@@ -18,4 +18,4 @@ Is recommended to use an external supply of 5v. It's possible to connect the ULN
 
 The explanations abuot how work the stepper motor on which the library is based: [About Motor](docs/AboutMotor.md).
 
-The documentation of the use of the library : [Library Doc](doc/LibraryDocs.md).
+The documentation of the use of the library : [Library Doc](docs/LibraryDocs.md).
