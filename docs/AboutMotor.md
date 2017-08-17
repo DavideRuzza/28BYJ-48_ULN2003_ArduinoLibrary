@@ -1,4 +1,4 @@
-# This is the documentation file of the library
+# Understenging the Stepper Motor
 
 In this file is described how to use the library and all its function.
 
