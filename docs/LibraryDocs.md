@@ -34,25 +34,25 @@ In all function **\_direction** is a `boolean`, and is referred to the direction
   ```Ino
   mystepper.step_move(_steps, _direction);
   ```
-**\_steps** is an `int`, and is referred to the number of steps to move by; 
+  **\_steps** is an `int`, and is referred to the number of steps to move by; 
 
 - **Turn by angle**:
   ```Ino
   mystepper.ang_move(_angle, _direction);
   ```
-**\_angle** is a `float`, and is referred to the angle to move by; 
+  **\_angle** is a `float`, and is referred to the angle to move by; 
 
 - **Turn by revolutions**:
   ```Ino
   mystepper.turn(_revolution, _direction);
   ```
-**\_angle** is an `int`, and is referred to the number of revolutions (full turn of 360°) to move by; 
+  **\_angle** is an `int`, and is referred to the number of revolutions (full turn of 360°) to move by; 
 
 - **Turn by a single step**:
   ```Ino
   mystepper.one(_direction);
   ```
-This is an optional function which allow to move by a single step without calling the `.step_move`;
+  This function allow to move by a single step without calling the `.step_move` method;
 
 
 
