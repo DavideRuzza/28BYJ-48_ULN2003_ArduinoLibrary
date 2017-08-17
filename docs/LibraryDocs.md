@@ -28,6 +28,7 @@ void setup() {
 ## Library Functions
 
 There are different function to turn the motor:
+
 In all function **\_direction** is a `boolean`, and is referred to the direction of the movement **_True_=clockwise** or **_False_=anticlockwise**.
 
 - **Turn by steps**:
