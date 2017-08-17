@@ -53,7 +53,17 @@ In all function **\_direction** is a `boolean`, and is referred to the direction
   ```Ino
   mystepper.one(_direction);
   ```
-  This function allow to move by a single step without calling the `.step_move` method;
+  This function allow to move by a single step without calling the `.step_move` method.
 
+### Special Functions
 
+This library contain also other special function.
+
+- **Reset Until Button is Pressed**:
+  ```Ino
+  mystepper.resetTo(_ButtonPin, _direction);
+  ```
+  **\_ButtonPin** is an `int`, and is referred to the pin where the button is attached. this function is mentioned in an example of the library [ResetToButton](https://github.com/DavideRuzza/Stepper_28BY48_ULN2003/tree/master/examples/ResetToButton) and the schematic can be found in the [images](https://github.com/DavideRuzza/Stepper_28BY48_ULN2003/tree/master/images) folder of the library or in the [ReadMe](https://github.com/DavideRuzza/Stepper_28BY48_ULN2003/blob/master/README.md#the-schematic).
+  
+Read the documentation of the motor at []
 
