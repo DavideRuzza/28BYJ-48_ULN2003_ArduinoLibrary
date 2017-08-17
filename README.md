@@ -15,4 +15,7 @@ Is recommended to use an external supply of 5v. It's possible to connect the ULN
 
 <img src="https://github.com/DavideRuzza/Stepper_28BY48_ULN2003/blob/master/images/Schematic.jpg" height= 400px>
 
-The documentation of the library can be found here: [Docs](docs/doc.md)
+
+The explanations abuot how work the stepper motor on which the library is based: [About Motor](docs/AboutMotor.md).
+
+The documentation of the use of the library : [Library Doc](doc/doc.md).
