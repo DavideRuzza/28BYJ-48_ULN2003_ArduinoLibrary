@@ -46,7 +46,7 @@ In all function **\_direction** is a `boolean`, and is referred to the direction
   ```Ino
   mystepper.turn(_revolution, _direction);
   ```
-  **\_angle** is an `int`, and is referred to the number of revolutions (full turn of 360°) to move by; 
+  **\_revolutions** is an `int`, and is referred to the number of revolutions (full turn of 360°) to move by; 
 
 - **Turn by a single step**:
   ```Ino
