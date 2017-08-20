@@ -18,7 +18,7 @@ Step_er mystepper(HALF_STEP);
 void setup() {
   
   //attach the stepper motor to its pin
-  stepper.attach(2,3,4,5);
+  mystepper.attach(2,3,4,5);
 
   /* for all the function of movement
    * the boolean argument is the direction
@@ -28,18 +28,18 @@ void setup() {
   */
 
   //rotate the motor by step;
-  stepper.step_move(400, true);
+  mystepper.step_move(400, true);
 
   delay(200);
   
   //rotate the motor by angle;
-  stepper.ang_move(90, false);
+  mystepper.ang_move(90, false);
 
   delay(200);
   
   //rotate the motor by complete revolutions
   //in this case 2 complete revolutions.
-  stepper.turn(2, true);
+  mystepper.turn(2, true);
 
   delay(200);
 
