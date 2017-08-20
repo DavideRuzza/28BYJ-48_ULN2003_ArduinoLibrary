@@ -4,10 +4,10 @@ Step_er::Step_er(int mode){
   _mode = mode;
   if (_mode == 0 || _mode == 1){
     _Smax = 2048;
-    _vel = 2000;
+    _vel = 20;
   } else {
     _Smax = 4095;
-    _vel = 1000;
+    _vel = 10;
   }
 }
 
