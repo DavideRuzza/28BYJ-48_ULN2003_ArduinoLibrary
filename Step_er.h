@@ -1,5 +1,5 @@
-#ifndef Step_er
-#define Step_er
+#ifndef St
+#define St
 
 #include "arduino.h"
 
